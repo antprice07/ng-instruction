@@ -1,0 +1,17 @@
+<div>
+  <h2>{{title}}</h2>
+</div>
+<div [style.color]='myColor'>
+  <h4>Contact Info</h4>
+  <span>{{name}}<br></span>
+  <span>{{address}}<br></span>
+  <span>{{add2}}<br></span>
+  <span>{{phone}}<br></span>
+  <span>{{email}}<br></span>
+</div>
+<div>
+  <button (click)="chgColor('red')">red</button>
+  <button (click)="chgColor('blue')">blue</button>
+</div>
+<app-education></app-education>
+<app-work-experience></app-work-experience>
